@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="BABAFEMI.png" type="image/x-icon">
+    <title>Stop Clock</title>
+</head>
+<body>
+          <div class="container">
+    <div class="digital_container">
+<div id="digital">
+
+    <div class="circle" style="--color: rgb(255, 255, 255);">
+        <div class="dots h_dot"></div>
+         <svg viewBox="0 0 150 150">
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70" id="hrs"></circle>
+        </svg>
+        <div id="hours"></div>
+        </div>
+
+        <div class="circle" style="--color: rgb(212, 226, 19);">
+            <div class="dots m_dot"></div>
+             <svg viewBox="0 0 150 150">
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="min"></circle>
+            </svg>
+            <div id="minutes"></div>
+            </div>
+
+            <div class="circle" style="--color: #04fc43">
+                <div class="dots s_dot"></div>
+                 <svg viewBox="0 0 150 150">
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+                <div id="seconds"></div>
+              </div>
+</div>
+<div class="control">
+<img src="stop.png" alt="stop-count" onclick="stopCount()">
+<img src="start.png" alt="start-count" onclick="startCount()">
+<img src="reset.png" alt="reset-count" onclick="resetCount()">
+</div></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
