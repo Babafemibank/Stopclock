@@ -28,8 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL:( https://babafemibank.github.io/Stopclock/)
 
 
 
@@ -43,7 +42,7 @@ Users should be able to:
 ## Author
 
 - Website - [Bankole Babafemi Usman](https://github.com/Babafemibank)
-- Email - [Bankole Babafemi Usman] babafemiusman@gmail.com
+- Email - [Bankole Babafemi Usman]( babafemiusman@gmail.com)
 - Twitter - [@phabhulouz](https://www.twitter.com/phabhulouz)
 - LinkedIn - [Bankole Usman](https://www.linkedin.com/in/bankole-usman-099081268)
 
